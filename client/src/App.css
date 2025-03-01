@@ -1,0 +1,110 @@
+#root {
+  margin: 0 auto;
+  text-align: left;
+  min-height: 100vh;
+  min-height: 100vh;
+  background-color: #fbfbf2;
+  font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.circular-text {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  font-weight: bold;
+}
+
+.col-place-your-bet {
+  border-radius: 2px;
+  background-color: rgb(246, 250, 247);
+  /* max-width: 500px; */
+  border: 1px solid #424040;
+  box-shadow: 0 2px 4px rgba(206, 202, 202, 0.867);
+}
+
+.input-only-bottom-line {
+  max-width: 40px;
+  border: none;
+  background-color: transparent !important;
+  /* !important to override bootstrap one */
+  border: 0px !important;
+  border-bottom: 1px solid #000000 !important;
+  text-align: center;
+
+}
+
+
+.toast-container {
+  position: relative;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.toast-elem {
+  min-width: auto;
+  position: auto;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 5px black;
+
+}
+
+.toast-warning {
+  background-color: #ffff00;
+}
+
+.toast-button-close {
+
+  float: right;
+  background: none;
+  color: rgb(0, 0, 0);
+  border: none;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+
+    opacity: 1;
+  }
+}
+
+.col-box-shadow-white {
+  box-shadow: 0 2px 4px rgba(89, 88, 88, 0.937);
+  background-color: rgb(246, 250, 247);
+  border: #00000088 1px solid;
+}
+
+.main-body-border-black {
+  border: 1px solid #dcd6d6;
+  border-radius: 1px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fbfbf2;
+  box-shadow: 0 1px 2px rgba(115, 117, 117, 0.937);
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
